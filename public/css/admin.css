@@ -1,0 +1,107 @@
+body,
+html {
+    height: 100%;
+    background-image: url("/img/nasgor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+.add-menu {
+    color: rgb(27, 27, 27);
+}
+.bg-image {
+    background-image: url("/img/nasgor.jpg");
+    filter: blur(12px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.card-body {
+    background: rgb(41, 41, 41);
+}
+.card-header {
+    margin: auto;
+}
+.card-header h4 {
+    line-height: 50px;
+}
+.card-header a {
+    margin: 10px;
+}
+.container-menu {
+    position: absolute;
+    margin-left: 250px;
+}
+.container {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 20px;
+}
+.col-sm-12 {
+    background: rgb(29, 29, 29);
+    color: white;
+    height: 10vh;
+}
+.col-sm-12 h1 {
+    text-align: center;
+    line-height: 10vh;
+    font-family: "Lato", sans-serif;
+}
+.col-sm-8 {
+    font-size: 24px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.col-sm-4 {
+    font-size: 24px;
+    background: rgb(113, 113, 113);
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+}
+form {
+    padding: 20px;
+}
+.grupo {
+    margin-left: 100px;
+    margin-right: 120px;
+}
+.register {
+    margin-top: 100px;
+    border-radius: 50px;
+}
+.register h1 {
+    text-align: center;
+}
+
+.register-grupo {
+    margin-left: 400px;
+    color: white;
+}
+.vertical-menu {
+    margin: auto;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.vertical-menu a {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
